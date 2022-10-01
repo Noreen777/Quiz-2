@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+}
+
+.logo{
+    margin-left: 5%;
+}
+.nav{
+   
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    top: 0;
+    padding-left: 800px;
+
+}
+nav ul li{
+    list-style: none;
+    line-height: 50px;
+    padding-right: 20px;
+}
+nav ul li a{ 
+    color: #868282;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ee3b16;
+    font-weight: 400;
+}
+
+
+.container{
+    background-image: url(./hero.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: repeat;
+    height: 680px;
+    
+}
+ #heading{
+    text-align: center;
+    padding-top: 320px;
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    font-weight: 300;
+   
+}
+.heading{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+   
+}
+
+#btn{
+    margin-top: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    padding: 20px 42px;
+    border: 1.5px solid white;
+    letter-spacing: 6px;
+    margin-right: 15px;
+    border-radius: 3px;
+
+}
+#bn{
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 6px;
+    padding-left: 30px;
+}
+#img{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+hr{
+    margin-left: 700px;
+
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: #282727;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    font-weight: 300;
+}
+#divh{
+    display: flex;
+    align-items: center;
+  
+}
+#div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
